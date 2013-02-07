@@ -25,5 +25,9 @@ You need to:
 	Tool Button(on right side) : Maven Project -> HelloBot -> Lifecycle -> install
    - Linux : 
   	 1. Go to hubiquitus4java/Bots/HelloBot in terminal
-  	 2. tap "mvn clean install"
+  	 2. Type "mvn clean install"
  * run the project
+ * Start TestClient (Examples/TestClient), a simple interface for Java hAPI (problem with payload format with Js hAPI)
+ * In the TestClient interface, specify a different username from HelloBot (for example urn:localhost:u2), and copy username into password. 
+ * fill "Actor" field with HelloBot JID (default : urn:localhost:u1)
+ * Any message sent my TestClient such as "Azerty" will be answered by Bot with "Hello Azerty".
